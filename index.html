@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana Gurram - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero"></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/BhavanaGurram_Resume.pdf" class="resume-btn">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Bhavana Gurram</h1>
+            <p class="tagline">Full Stack Developer with 3 years of industry experience</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="assets/profile.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <strong>Name:</strong>
+                            <span>Bhavana Bramaram Gurram</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Profile:</strong>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email:</strong>
+                            <span>bhavanagurram14@gmail.com</span>
+                        </div>
+                    </div>
+                    <a href="assets/BhavanaGurram_Resume.pdf" class="btn-primary">Download Resume</a>
+                </div>
+                
+                <div class="about-right">
+                    <h3>About Me</h3>
+                    <p class="about-description">
+                        I am a Software Developer passionate about building automation solutions that solve real-world problems at scale. I specialize in full-stack development and enjoy designing systems that are efficient, reliable, and user-friendly. Currently, I am pursuing my Master’s in Computer Science while gaining hands-on experience in building scalable web applications. I am eager to collaborate with talented teams and contribute to innovative, impactful projects.
+                    </p>
+                </br>
+                    <h3 class="skills-heading">Skills</h3>
+                    <div class="skills-grid">
+                    <!-- COPY all your skill blocks here -->
+                     <div class="skill">
+                       <div class="skill-name">Java</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+
+                      <div class="skill">
+                       <div class="skill-name">C#</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+
+                      <div class="skill">
+                       <div class="skill-name">MySQL</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-percent">85%</div>
+                      </div>
+
+                      <div class="skill">
+                       <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percent">75%</div>
+                      </div>
+
+                      <div class="skill">
+                       <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percent">75%</div>
+                      </div>
+
+                      <div class="skill">
+                       <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                         <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percent">65%</div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Learn practically!</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>BudgetWise - Expense Tracking & Budget Management System</h3>
+                        <p>A full-stack e-commerce application built with React, C#, and MySQL. 
+                            Implemented Repository Pattern and Service Layer for clean separation of concerns
+                            ,created RESTful API with JWT authentication and authorization,
+                            ,designed SQL Server database schema with Entity Framework Core Code-First migrations
+                            ,developed responsive React UI with real-time budget analytics and data visualization</p>
+                        <a href="https://github.com/bhavanagurram14/BudgetTracker" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Blog/Content Management System</h3>
+                        <p>Built a secure full-stack content management platform with JWT-based authentication, enabling users to create, edit, and manage posts. The application supports search, filtering, categories, and multi-tagging, along with post statuses (Draft, Published, Archived). Users can manage their content through a personalized dashboard, and the interface is fully responsive across all devices.</p>
+                        <a href="https://github.com/bhavanagurram14/ContentManagementSystem" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>EBeats Mobile Application</h3>
+                        <p>Developed as part of a 4-member team, EBeats is a mobile application built with Android Studio and Firebase, leveraging Google APIs to digitize and streamline police patrolling. The app replaces traditional security logs and manual reporting, allowing higher officials to monitor patrol completion across multiple beats in real time. It enhances transparency, security, and efficiency in patrolling operations.</p>
+                        <a href="https://github.com/bhavanagurram14/MainPage" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project4.jpg" alt="Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-cell Web Development</h3>
+                        <p>Developed the Entrepreneurship Cell website for NIT Andhra Pradesh as part of a 2-member team using HTML, CSS, JavaScript, and Bootstrap. The platform provides students with centralized access to event information and enables online registration for upcoming activities.</p>
+                        <a href="https://github.com/bhavanagurram14/EcellNITap.github.io" class="project-link">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Developer at Paycom</h3>
+                        <p class="timeline-date">January 2025 - Present</p>
+                        <p>Built and maintained scalable desktop and web applications using C#, .NET, and SQL Server to automate tax reporting and filing workflows across all 50 U.S. states and multiple international regions, supporting compliance for over 10,000 clients. Designed and processed regulatory XML and PDF documents, collaborated with cross-functional teams to deliver production-ready solutions, and implemented automation that reduced manual effort by 67% while improving accuracy and meeting strict SLA and audit requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Intern at Paycom</h3>
+                        <p class="timeline-date">May 2024 - August 2024</p>
+                        <p>Built a full-stack HR survey platform using C#, React, and SQL Server to automate feedback collection, streamline hiring workflows, and provide data-driven insights through an analytics dashboard.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Student Assistant at University of Texas at Dallas</h3>
+                        <p class="timeline-date">Feb 2023 - December 2024</p>
+                        <p> Supported and mentored 100+ undergraduate students by collaborating with professors to create and grade assignments, providing
+detailed feedback, and ensuring accurate assessment of coursework.
+• Instructed 45+ students in Java, Python, and JavaScript, teaching core concepts such as Object-Oriented Programming, Data
+Structures, and Operating Systems, strengthening students’ practical programming skills.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Developer at Deloitte USI Consulting</h3>
+                        <p class="timeline-date">July 2021 - December 2022</p>
+                        <p>Worked on state government healthcare and benefits systems, building integration and automation solutions using Java, IIB, Datapower, and DB2. Developed onboarding automation that reduced manual effort by 300 hours per month and built a patient notification service handling over 400,000 messages monthly, while also enhancing SOAP and REST services for data security and system integrations.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Summer Research Intern</h3>
+                        <p class="timeline-date">May 2019 - July 2019</p>
+                        <p> Implemented Stock Prediction and classification problem using Adaline and neural networks. 
+Worked on various algorithms such as genetic algorithm, logistic regression, neural networks. 
+Acquired a promising accuracy of 74%. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>I'm currently looking for opportunities!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:bhavanagurram14@gmail.com">Email</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/bhavana-gurram-714633193/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/bhavanagurram14" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Copyright <strong>BhavanaGurram</strong>. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
